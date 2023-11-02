@@ -5,6 +5,7 @@ Requirements for building and using the Dagor Engine toolkit: Windows 10 (x64), 
 * Install 7-Zip: https://www.7-zip.org/
 * Install Python 3
 * If you plan to use the FMOD sound library, also install FMOD Studio SDK 2.02.15
+* do not forhet to test
 
 Create a project folder at the root of any drive (the folder name should not contain spaces or non-Latin characters).
 ```
@@ -66,9 +67,6 @@ X:\develop\DagorEngine\samples\testGI\game
 * prog - game source code
 * develop - initial assets
 * game - directory where assets are placed after building and game executable files are located
+* Do not try to build from source
 
-## How to Build: Build from Source Code
 
-To build the "testGI" sample, navigate to the X:\develop\DagorEngine\samples\testGI\prog folder and run the "jam" command. After building, the executable file will be placed in the testGI\game folder.
-
-Run DagorEngine/build_all.cmd to build the entire project toolkit from the source code. This process may take a considerable amount of time.
